@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react"
-import { AudioBars } from "./anim/bars";
-import { CircleAnim } from "./anim/circle";
 import { visualizerRegistery, VisualizerType } from "./visualizarRegistery";
 
 interface VisualizerProps {
