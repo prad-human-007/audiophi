@@ -5,7 +5,7 @@ export default function Landing() {
 
     return (
         <div className='flex flex-col gap-4 w-full h-screen justify-center items-center '>
-        <AudioVisualizer type="bubble-ring" />
+        <AudioVisualizer type="circular-wave" />
         <h1>Audiophi Landing</h1>
         <Button>Hello</Button>
         </div>

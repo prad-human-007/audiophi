@@ -1,5 +1,5 @@
 
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 export interface AudioVisComponentProps {
     stream: MediaStream;
@@ -11,9 +11,6 @@ export function BubbleRing({stream }: AudioVisComponentProps) {
   const audioContextRef = useRef<AudioContext | null>(null);
 
   useEffect(() => {
-    
-
-    
         
       if (!stream || !canvasRef.current) return;
       
